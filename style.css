@@ -1,0 +1,148 @@
+body{
+  background: lightgray;
+  font-family: 'Prosto One', cursive;
+}
+
+ul{
+   list-style-type: none;
+   margin: auto auto auto 450px;
+   padding: -1px;
+   position: relative;
+   margin-top: 0px;
+   
+}
+ul.navigation{
+  background: #3d3d3d;
+  width: 30px;
+  margin-bottom: -150px;
+  padding: 10px;
+  margin-left: 950px;
+  border-radius: 10px;
+}
+li{
+  display: inline-block;
+  background: #d3d3d3;
+  border-radius: 10px;
+  margin: auto;
+  padding: 0 20px 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  border: 2px solid #3d3d3d;
+ }
+
+#all:hover{
+  background: gray;
+  color: white;
+}
+
+#on:hover, #on:active, #on:visited {
+  background: green;
+  color: white;
+}
+
+#off:hover{
+  background: #636363;
+  color: #ffffff;
+}
+
+.users{
+  background: gray;
+  min-height: 89.7vh;
+  max-width: 800px;
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: 10px 10px 25px #3d3d3d;
+}
+
+.errormessage{
+  background: #3d3d3d;
+  color: white;
+  margin-top: 125px;
+}
+
+.fa{
+  color: red;
+  margin-top: 50px;
+  background: white;
+  border-radius: 30px;
+  width: 65px;
+  font-size: 30px;
+  text-align: center;
+  height: 65px;
+  line-height: 140px;
+  border: 3px solid #636363;
+ }
+
+.stream{
+  margin: auto;
+  text-align: center;
+  background: #3d3d3d;
+  color: white;
+  padding: 0px;
+  bottom: -1px;
+}
+
+.stream a{
+  color: lightgray;
+  background: green;
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid lightgray;
+  font-size: 14px;
+  
+}
+
+a{
+  color: #3d3d3d;
+  text-align: center;
+  font-size: 16px;
+}
+.online{
+  margin-top: 75px;
+  
+}
+
+.offline{
+  margin-top: 90px;
+  
+}
+
+img{
+  margin: 40px auto 40px auto;
+  text-align: center;
+  border-radius: 50%;
+  width: 40%;
+  display: inline-block;
+  background: white;
+  padding: 5px;
+  border: 3px solid #636363;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.row{
+  display: inline-block;
+  background: lightgray;
+  border-radius: 10px;
+  width: 200px;
+  height: 280px;
+  margin-top: 50px;
+  margin: 20px;
+  margin-left:28px;
+  text-align: center;
+  border: 1px solid #3d3d3d;
+   box-shadow: 10px 10px 5px #3d3d3d;
+   font-size: 12px;
+ }
+
+.footer {
+  position: fixed;
+ 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2d2c2c;
+  color: white;
+  text-align: center;
+  opacity: 0.8;
+  font-size: 12px;
+}
