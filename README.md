@@ -9,4 +9,4 @@ User Stories:
 3.  If a Twitch user is currently streaming, I can see additional details about what they are streaming.
 
 ---------------------------------------------------------------------------------------------------------------------------------
-Live App: https://s.codepen.io/yesseniamelendez/debug/ooxBXr/LQAExPOmejmr
+Live App: https://codepen.io/yesseniamelendez/pen/ooxBXr
